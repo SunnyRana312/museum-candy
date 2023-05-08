@@ -1,0 +1,60 @@
+body {
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Nunito", sans-serif;
+}
+#mainNavbar .navbar-brand {
+  color: #7ce8ff;
+  font-weight: 800;
+}
+#mainNavbar {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+#mainNavbar .nav-links {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #7ce8ff;
+}
+
+#headinGroup h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+}
+@media (max-width: 1000px) {
+  #headinGroup h1 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+}
+.blur h2 {
+  color: #7ce8ff;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blur p {
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 2;
+}
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.navbar.scrolled {
+  background: #7ce8ff;
+  transition: background 400ms;
+}
